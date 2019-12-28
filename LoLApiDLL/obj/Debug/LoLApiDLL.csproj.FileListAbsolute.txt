@@ -1,0 +1,11 @@
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\LoLApiDLL.dll.config
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\LoLApiDLL.dll
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\LoLApiDLL.pdb
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\Newtonsoft.Json.dll
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\RestSharp.dll
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\Newtonsoft.Json.xml
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\RestSharp.xml
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.csproj.CoreCompileInputs.cache
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.csproj.CopyComplete
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.dll
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.pdb

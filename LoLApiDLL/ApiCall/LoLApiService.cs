@@ -1,0 +1,51 @@
+﻿using LolApiDll.DataModels;
+using Newtonsoft.Json.Linq;
+using RestSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace LolApiDll.ApiCall
+{
+    public class LoLApiService
+    {
+        //DTO
+        public LoLApiDTO lolApiDTO = new LoLApiDTO();
+
+        //CallManager
+        public LoLApiCall lolApiCall = new LoLApiCall();
+
+        //JObject
+        public JObject lolApiJObject;
+
+        //IRestResponse
+        public IRestResponse lolApiResponse;
+
+        public void LoLApiSumReq(string name)
+        {
+            lolApiDTO.DeserializeSummonerModel(lolApiCall.ApiSummonerReq(name));
+            
+        }
+        public void LoLApiEntryReq(string sumId)
+        {
+            lolApiDTO.DeserializeEntryModel(lolApiCall.ApiLeagueEntryReq(sumId));
+        }
+
+        public void LoLApiTftReq(string sumId)
+        {
+            lolApiDTO.DeserializeTftModel(lolApiCall.ApiTftReq(sumId));
+        }
+
+        public void LoLApiMasteryReq(string sumId)
+        {
+            lolApiDTO.DeserializeMasteryModel(lolApiCall.ApiMasteryReq(sumId));
+        }
+
+        public void LoLApiChampionReq()
+        {
+            lolApiDTO.DeserializeChampionModel(lolApiCall.ApiChampionReq());
+        }
+
+    }
+}

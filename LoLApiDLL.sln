@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLApiDLL", "LoLApiDLL\LoLApiDLL.csproj", "{237950A0-B27B-4E2A-8C82-580CBE2AF60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{237950A0-B27B-4E2A-8C82-580CBE2AF60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237950A0-B27B-4E2A-8C82-580CBE2AF60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237950A0-B27B-4E2A-8C82-580CBE2AF60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237950A0-B27B-4E2A-8C82-580CBE2AF60F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {963CC29C-92BB-4B95-98EF-D2F930D5081F}
+	EndGlobalSection
+EndGlobal
