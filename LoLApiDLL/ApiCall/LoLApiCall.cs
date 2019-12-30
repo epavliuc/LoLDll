@@ -66,6 +66,16 @@ namespace LolApiDll.ApiCall
             return Response.Content;
         }
 
+        public string ApiCurrentReq(string sumId)
+        {
+            var request = new RestRequest();
+            Client = new RestClient(ApiConfig.CurrentGameApiUrl + sumId);
+            Client.AddDefaultHeader("X-Riot-Token", ApiConfig.ApiKey);
+            Response = Client.Execute(request);
+
+            return Response.Content;
+        }
+
         public string ApiChampionReq()
         {
             var request = new RestRequest();

@@ -58,6 +58,7 @@
     <Compile Include="DataModels\LoLApiDTO.cs" />
     <Compile Include="DataModels\LoLChallengerModel.cs" />
     <Compile Include="DataModels\LoLChampionModel.cs" />
+    <Compile Include="DataModels\LoLCurrentGameModel.cs" />
     <Compile Include="DataModels\LoLLeagueEntryModel.cs" />
     <Compile Include="DataModels\LoLMasteryModel.cs" />
     <Compile Include="DataModels\LoLSummonerModel.cs" />

@@ -14,7 +14,7 @@ namespace LolApiDll.ApiCall
         public static string LeagueEntryApiUrl = "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/";
         public static string TftApiUrl = "https://euw1.api.riotgames.com/tft/league/v1/entries/by-summoner/";
         public static string MasteryApiUrl = "https://euw1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/";
-        public static string ApiKey = System.IO.File.ReadAllText("C:\\Users\\Edd\\Desktop\\RiotApiKey.txt");
-        
+        public static string CurrentGameApiUrl = "https://euw1.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/";
+        public static string ApiKey = System.IO.File.ReadAllText("C:\\Users\\Edd\\Desktop\\RiotApiKey.txt");       
     }
 }

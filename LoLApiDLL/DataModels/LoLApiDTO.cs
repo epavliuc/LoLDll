@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using LoLApiDLL.DataModels;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace LolApiDll.DataModels
         public IList<LoLTftModel> lolTftModel { get; set; }
         public IList<LoLMasteryModel> lolMasteryModel { get; set; }
         public LoLChampionModel lolChampionModel { get; set; }
+        //public LoLCurrentGameModel lolCurrentGameModel { get; set; }
 
         public void DeserializeChallengerApi(String lolApiResponse)
         {
