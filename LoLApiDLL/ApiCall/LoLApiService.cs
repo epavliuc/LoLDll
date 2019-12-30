@@ -47,5 +47,10 @@ namespace LolApiDll.ApiCall
             lolApiDTO.DeserializeChampionModel(lolApiCall.ApiChampionReq());
         }
 
+        public void LoLApiCurrentReq(string sumId)
+        {
+            lolApiDTO.DeserializeCurrentModel(lolApiCall.ApiCurrentReq(sumId));
+        }
+
     }
 }

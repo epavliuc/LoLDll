@@ -16,7 +16,7 @@ namespace LolApiDll.DataModels
         public IList<LoLTftModel> lolTftModel { get; set; }
         public IList<LoLMasteryModel> lolMasteryModel { get; set; }
         public LoLChampionModel lolChampionModel { get; set; }
-        //public LoLCurrentGameModel lolCurrentGameModel { get; set; }
+        public LoLCurrentGameModel lolCurrentGameModel { get; set; }
 
         public void DeserializeChallengerApi(String lolApiResponse)
         {
@@ -44,6 +44,11 @@ namespace LolApiDll.DataModels
         public void DeserializeChampionModel(String lolApiResponse)
         {
             lolChampionModel = JsonConvert.DeserializeObject<LoLChampionModel>(lolApiResponse);
+        }
+
+        public void DeserializeCurrentModel(String lolApiResponse)
+        {
+            lolCurrentGameModel = JsonConvert.DeserializeObject<LoLCurrentGameModel>(lolApiResponse);
         }
     }
 }

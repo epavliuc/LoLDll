@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoLApiDLL.DataModels
 {
-    class LoLCurrentGameModel
+    public class LoLCurrentGameModel
     {
         public long gameId { get; set; }
         public long gameStartTime { get; set; }
