@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LolApiDll.ApiCall
 {
-    class ApiConfig
+    public class ApiConfig
     {
         public static string ChallengerApiUrl = "https://euw1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5";
         public static string SummonerApiUrl = "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/";

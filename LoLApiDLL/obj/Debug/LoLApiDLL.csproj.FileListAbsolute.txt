@@ -9,3 +9,5 @@ D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.csproj.CoreCompileInputs
 D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.csproj.CopyComplete
 D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.dll
 D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.pdb
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\bin\Debug\Json.Net.dll
+D:\VisualStudio\LoLApiDLL\LoLApiDLL\obj\Debug\LoLApiDLL.csprojAssemblyReference.cache
